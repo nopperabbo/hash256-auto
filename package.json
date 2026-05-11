@@ -1,0 +1,15 @@
+{
+  "name": "hash256-auto",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node orchestrator.js",
+    "bench": "node bench.js",
+    "test-swap": "node test-swap.js",
+    "swap-once": "node swap.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  }
+}
