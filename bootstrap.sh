@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
-REPO_URL="${REPO_URL:-https://github.com/REPLACE_WITH_YOUR_USERNAME/hash256-auto.git}"
+REPO_URL="${REPO_URL:-https://github.com/nopperabbo/hash256-auto.git}"
 WORK_DIR="${WORK_DIR:-$HOME/hash256-auto}"
 
 cat <<'BANNER'
